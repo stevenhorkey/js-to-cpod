@@ -7,18 +7,20 @@
     <title>Document</title>
 </head>
 <body>
+
+    <p>Html test code to trigger cpod. using js/jquery</p>
  
 <!-- jquery for ajax call -->
-<script
-src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-crossorigin="anonymous">
-</script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
 <!-- code to trigger python xid c pod event -->
 <script>
 
+    alert('test');
+
 $.get('./test.py',function(res){
     console.log(res);
+    alert(res);
 })
 
 
